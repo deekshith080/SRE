@@ -1,0 +1,206 @@
+2023-12-18 22:38:01,831 determine_reliability_of_end_points
+2023-12-18 22:38:01,837 testingfetch index page
+2023-12-18 22:38:01,838 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:01,839 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:01,851 connect_tcp.started host='fetch.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:02,518 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018286FCE4A0>
+2023-12-18 22:38:02,521 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC80C0> server_hostname='fetch.com' timeout=5.0
+2023-12-18 22:38:02,856 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018286FCD330>
+2023-12-18 22:38:02,856 send_request_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:02,857 send_request_headers.complete
+2023-12-18 22:38:02,857 send_request_body.started request=<Request [b'GET']>
+2023-12-18 22:38:02,857 send_request_body.complete
+2023-12-18 22:38:02,857 receive_response_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:03,186 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/html'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Dec 2023 16:52:20 GMT'), (b'Cache-Control', b'public, must-revalidate, proxy-revalidate, max-age=0, s-maxage=1200'), (b'ETag', b'"1hn74o5"'), (b'Link', b'<./_app/immutable/assets/0.d47493ba.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/Icon.cd32f9da.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/4.827d7649.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/11.bc891b09.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/LogoCarousel.9819174e.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/EmblaCarousel.44a0ab22.css>; rel="preload";as="style"; nopush, <./_app/immutable/entry/start.d8e9636a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/scheduler.f94fe886.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/singletons.3fe3a3fc.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/control.f5b05b5f.js>; rel="modulepreload"; nopush, <./_app/immutable/entry/app.80820d3f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/preload-helper.a4192956.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/index.ac8fc0f0.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/0.cbc91ea2.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/stores.abf0ff68.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/easy.qrcode.min.b828a42f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/variables.5c26e260.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/_commonjsHelpers.725317a4.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/isSymbol.2558f0f7.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Icon.312a9e9d.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/each.90f7b890.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/spread.8a54911c.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/4.008fd7c2.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/oneLinks.32ca965f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/index.es.df4ab995.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/content-helpers.e3f8b68f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/navigation.3880721a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/navbarHeight.0a35d8ae.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Picture.8286014a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/analytics.44f9d101.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/_basePropertyOf.88806931.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/debounce.ceb15fb6.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/11.1dbd7ec4.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/AppCallout.72708c43.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/HeadMetas.0ca65857.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Html.a4294876.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/LogoCarousel.9befdaf0.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/EmblaCarousel.7d87dded.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/clsx.m.1229b3e0.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/screen-breakpoints.a15bfebd.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/HowItWorksSection.83c997fb.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Hero.ad34468d.js>; rel="modulepreload"; nopush'), (b'x-request-id', b'd9bc973a-884a-42fd-9ebe-91ee8b9f1aee'), (b'x-sveltekit-page', b'true'), (b'Content-Encoding', b'gzip'), (b'Vary', b'Accept-Encoding'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 1005873908b937da8d6e408eda0fb9e0.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'COJ1mMtdajgAP1-saWx_WY3OB6guVbL6UM6iaSKU9aLqKWjk3xrRCA=='), (b'Age', b'943')])
+2023-12-18 22:38:03,188 HTTP Request: GET https://fetch.com/ "HTTP/1.1 200 OK"
+2023-12-18 22:38:03,189 receive_response_body.started request=<Request [b'GET']>
+2023-12-18 22:38:03,291 receive_response_body.complete
+2023-12-18 22:38:03,291 response_closed.started
+2023-12-18 22:38:03,291 response_closed.complete
+2023-12-18 22:38:03,292 close.started
+2023-12-18 22:38:03,292 close.complete
+2023-12-18 22:38:03,292 latency for endpoint_url UP -https://fetch.com/is (milliseconds) 1455
+2023-12-18 22:38:03,293 testingfetch careers page
+2023-12-18 22:38:03,294 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:03,294 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:03,317 connect_tcp.started host='fetch.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:03,663 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018286FCFEE0>
+2023-12-18 22:38:03,663 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC8640> server_hostname='fetch.com' timeout=5.0
+2023-12-18 22:38:03,994 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018286FCFE50>
+2023-12-18 22:38:03,995 send_request_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:03,995 send_request_headers.complete
+2023-12-18 22:38:03,995 send_request_body.started request=<Request [b'GET']>
+2023-12-18 22:38:03,995 send_request_body.complete
+2023-12-18 22:38:03,996 receive_response_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:04,321 receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Server', b'CloudFront'), (b'Date', b'Mon, 18 Dec 2023 17:08:04 GMT'), (b'Content-Type', b'text/html'), (b'Content-Length', b'915'), (b'Connection', b'close'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 b45dc877dacb6622decf2f047880d5ae.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'nIh9XlE8eP6UMt_2b-vEPB2jJAVLUa2XZIftil3GnMtUUBdxBm7Y2g==')])
+2023-12-18 22:38:04,322 HTTP Request: GET https://fetch.com/careers "HTTP/1.1 403 Forbidden"
+2023-12-18 22:38:04,322 receive_response_body.started request=<Request [b'GET']>
+2023-12-18 22:38:04,322 receive_response_body.complete
+2023-12-18 22:38:04,322 response_closed.started
+2023-12-18 22:38:04,322 response_closed.complete
+2023-12-18 22:38:04,322 latency for endpoint_url UP -https://fetch.com/careersis (milliseconds) 1030
+2023-12-18 22:38:04,323 endpoint_url -https://fetch.com/careers- Failed
+2023-12-18 22:38:04,323 latency for endpoint_url DOWN -https://fetch.com/careersis (milliseconds) 1030
+2023-12-18 22:38:04,323 testingfetch some fake post endpoint
+2023-12-18 22:38:04,323 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:04,323 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:04,336 connect_tcp.started host='fetch.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:04,685 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018287038E50>
+2023-12-18 22:38:04,685 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC8840> server_hostname='fetch.com' timeout=5.0
+2023-12-18 22:38:05,016 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018287038E20>
+2023-12-18 22:38:05,016 send_request_headers.started request=<Request [b'POST']>
+2023-12-18 22:38:05,017 send_request_headers.complete
+2023-12-18 22:38:05,017 send_request_body.started request=<Request [b'POST']>
+2023-12-18 22:38:05,017 send_request_body.complete
+2023-12-18 22:38:05,017 receive_response_headers.started request=<Request [b'POST']>
+2023-12-18 22:38:05,356 receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Server', b'CloudFront'), (b'Date', b'Mon, 18 Dec 2023 17:08:05 GMT'), (b'Content-Type', b'text/html'), (b'Content-Length', b'1053'), (b'Connection', b'keep-alive'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 4ddb3602395856d6beaf04efda8919b2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'Wie9rtbJlpwqtq3MTurC3a16yrhkTDFHVOWpBoZilgOXqbNql57rBg==')])
+2023-12-18 22:38:05,357 HTTP Request: POST https://fetch.com/some/post/endpoint "HTTP/1.1 403 Forbidden"
+2023-12-18 22:38:05,358 receive_response_body.started request=<Request [b'POST']>
+2023-12-18 22:38:05,358 receive_response_body.complete
+2023-12-18 22:38:05,358 response_closed.started
+2023-12-18 22:38:05,359 response_closed.complete
+2023-12-18 22:38:05,359 close.started
+2023-12-18 22:38:05,360 close.complete
+2023-12-18 22:38:05,360 latency for endpoint_url UP -https://fetch.com/some/post/endpointis (milliseconds) 1037
+2023-12-18 22:38:05,360 endpoint_url -https://fetch.com/some/post/endpoint- Failed
+2023-12-18 22:38:05,360 latency for endpoint_url DOWN -https://fetch.com/some/post/endpointis (milliseconds) 1037
+2023-12-18 22:38:05,360 testingfetch rewards index page
+2023-12-18 22:38:05,361 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:05,363 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:05,386 connect_tcp.started host='www.fetchrewards.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:06,074 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018287039ED0>
+2023-12-18 22:38:06,074 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC8940> server_hostname='www.fetchrewards.com' timeout=5.0
+2023-12-18 22:38:06,406 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018287039EA0>
+2023-12-18 22:38:06,406 send_request_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:06,407 send_request_headers.complete
+2023-12-18 22:38:06,407 send_request_body.started request=<Request [b'GET']>
+2023-12-18 22:38:06,407 send_request_body.complete
+2023-12-18 22:38:06,407 receive_response_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:06,735 receive_response_headers.complete return_value=(b'HTTP/1.1', 301, b'Moved Permanently', [(b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Dec 2023 16:38:26 GMT'), (b'Location', b'https://www.fetch.com/'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 a44cf9ed8a499212c53e0b8f57aa31f4.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'BHjVZ9Z2vDV2RpkulApPZQZBNQkg-fIouB7S-GvM90-QdWL3lK-hzA=='), (b'Age', b'1780')])
+2023-12-18 22:38:06,735 HTTP Request: GET https://www.fetchrewards.com/ "HTTP/1.1 301 Moved Permanently"
+2023-12-18 22:38:06,736 receive_response_body.started request=<Request [b'GET']>
+2023-12-18 22:38:06,736 receive_response_body.complete
+2023-12-18 22:38:06,736 response_closed.started
+2023-12-18 22:38:06,736 response_closed.complete
+2023-12-18 22:38:06,736 close.started
+2023-12-18 22:38:06,736 close.complete
+2023-12-18 22:38:06,736 latency for endpoint_url UP -https://www.fetchrewards.com/is (milliseconds) 1376
+2023-12-18 22:38:06,736 endpoint_url -https://www.fetchrewards.com/- Failed
+2023-12-18 22:38:06,736 latency for endpoint_url DOWN -https://www.fetchrewards.com/is (milliseconds) 1376
+2023-12-18 22:38:16,840 determine_reliability_of_end_points
+2023-12-18 22:38:16,845 testingfetch index page
+2023-12-18 22:38:16,846 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:16,846 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:16,862 connect_tcp.started host='fetch.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:17,190 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001828703AFB0>
+2023-12-18 22:38:17,190 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC8A40> server_hostname='fetch.com' timeout=5.0
+2023-12-18 22:38:17,520 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001828703B040>
+2023-12-18 22:38:17,520 send_request_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:17,520 send_request_headers.complete
+2023-12-18 22:38:17,520 send_request_body.started request=<Request [b'GET']>
+2023-12-18 22:38:17,520 send_request_body.complete
+2023-12-18 22:38:17,521 receive_response_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:17,894 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/html'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Dec 2023 16:52:20 GMT'), (b'Cache-Control', b'public, must-revalidate, proxy-revalidate, max-age=0, s-maxage=1200'), (b'ETag', b'"1hn74o5"'), (b'Link', b'<./_app/immutable/assets/0.d47493ba.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/Icon.cd32f9da.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/4.827d7649.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/11.bc891b09.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/LogoCarousel.9819174e.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/EmblaCarousel.44a0ab22.css>; rel="preload";as="style"; nopush, <./_app/immutable/entry/start.d8e9636a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/scheduler.f94fe886.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/singletons.3fe3a3fc.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/control.f5b05b5f.js>; rel="modulepreload"; nopush, <./_app/immutable/entry/app.80820d3f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/preload-helper.a4192956.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/index.ac8fc0f0.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/0.cbc91ea2.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/stores.abf0ff68.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/easy.qrcode.min.b828a42f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/variables.5c26e260.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/_commonjsHelpers.725317a4.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/isSymbol.2558f0f7.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Icon.312a9e9d.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/each.90f7b890.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/spread.8a54911c.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/4.008fd7c2.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/oneLinks.32ca965f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/index.es.df4ab995.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/content-helpers.e3f8b68f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/navigation.3880721a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/navbarHeight.0a35d8ae.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Picture.8286014a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/analytics.44f9d101.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/_basePropertyOf.88806931.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/debounce.ceb15fb6.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/11.1dbd7ec4.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/AppCallout.72708c43.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/HeadMetas.0ca65857.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Html.a4294876.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/LogoCarousel.9befdaf0.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/EmblaCarousel.7d87dded.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/clsx.m.1229b3e0.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/screen-breakpoints.a15bfebd.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/HowItWorksSection.83c997fb.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Hero.ad34468d.js>; rel="modulepreload"; nopush'), (b'x-request-id', b'd9bc973a-884a-42fd-9ebe-91ee8b9f1aee'), (b'x-sveltekit-page', b'true'), (b'Content-Encoding', b'gzip'), (b'Vary', b'Accept-Encoding'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 4eb35caa679bb95c591a03f41b151b8c.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'VomnhtGnQYkGNrmNtk9CUDQTEOO8mshcrxLF8K5WtRql8d_PauX25Q=='), (b'Age', b'957')])
+2023-12-18 22:38:17,894 HTTP Request: GET https://fetch.com/ "HTTP/1.1 200 OK"
+2023-12-18 22:38:17,894 receive_response_body.started request=<Request [b'GET']>
+2023-12-18 22:38:17,959 receive_response_body.complete
+2023-12-18 22:38:17,959 response_closed.started
+2023-12-18 22:38:17,959 response_closed.complete
+2023-12-18 22:38:17,959 close.started
+2023-12-18 22:38:17,960 close.complete
+2023-12-18 22:38:17,960 latency for endpoint_url UP -https://fetch.com/is (milliseconds) 1115
+2023-12-18 22:38:17,960 testingfetch careers page
+2023-12-18 22:38:17,960 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:17,960 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:17,971 connect_tcp.started host='fetch.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:18,298 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000182870481F0>
+2023-12-18 22:38:18,298 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC8BC0> server_hostname='fetch.com' timeout=5.0
+2023-12-18 22:38:18,634 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018287048550>
+2023-12-18 22:38:18,634 send_request_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:18,635 send_request_headers.complete
+2023-12-18 22:38:18,635 send_request_body.started request=<Request [b'GET']>
+2023-12-18 22:38:18,635 send_request_body.complete
+2023-12-18 22:38:18,635 receive_response_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:18,960 receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Server', b'CloudFront'), (b'Date', b'Mon, 18 Dec 2023 17:08:18 GMT'), (b'Content-Type', b'text/html'), (b'Content-Length', b'915'), (b'Connection', b'close'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 c5670948bece41c6bb9df947cb650b7e.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'zwWkqr28ZmNJA2GiFY_bq9kx6_w1Z-w74dQhrRpI_HG6fPa1cX6TAQ==')])
+2023-12-18 22:38:18,960 HTTP Request: GET https://fetch.com/careers "HTTP/1.1 403 Forbidden"
+2023-12-18 22:38:18,960 receive_response_body.started request=<Request [b'GET']>
+2023-12-18 22:38:18,960 receive_response_body.complete
+2023-12-18 22:38:18,962 response_closed.started
+2023-12-18 22:38:18,962 response_closed.complete
+2023-12-18 22:38:18,962 latency for endpoint_url UP -https://fetch.com/careersis (milliseconds) 1002
+2023-12-18 22:38:18,962 endpoint_url -https://fetch.com/careers- Failed
+2023-12-18 22:38:18,962 latency for endpoint_url DOWN -https://fetch.com/careersis (milliseconds) 1002
+2023-12-18 22:38:18,962 testingfetch some fake post endpoint
+2023-12-18 22:38:18,962 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:18,962 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:18,973 connect_tcp.started host='fetch.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:19,312 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018287049630>
+2023-12-18 22:38:19,313 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC85C0> server_hostname='fetch.com' timeout=5.0
+2023-12-18 22:38:19,649 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018287049600>
+2023-12-18 22:38:19,649 send_request_headers.started request=<Request [b'POST']>
+2023-12-18 22:38:19,650 send_request_headers.complete
+2023-12-18 22:38:19,651 send_request_body.started request=<Request [b'POST']>
+2023-12-18 22:38:19,651 send_request_body.complete
+2023-12-18 22:38:19,651 receive_response_headers.started request=<Request [b'POST']>
+2023-12-18 22:38:19,976 receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Server', b'CloudFront'), (b'Date', b'Mon, 18 Dec 2023 17:08:19 GMT'), (b'Content-Type', b'text/html'), (b'Content-Length', b'1053'), (b'Connection', b'keep-alive'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 4076c9a26c97a2e765053f508fa5d748.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'wpGSsV3Qe80nq9QpHZKWTTTncuFWuEwhYB4zznYRxBEB_Md-LPknNw==')])
+2023-12-18 22:38:19,976 HTTP Request: POST https://fetch.com/some/post/endpoint "HTTP/1.1 403 Forbidden"
+2023-12-18 22:38:19,976 receive_response_body.started request=<Request [b'POST']>
+2023-12-18 22:38:19,976 receive_response_body.complete
+2023-12-18 22:38:19,976 response_closed.started
+2023-12-18 22:38:19,977 response_closed.complete
+2023-12-18 22:38:19,977 close.started
+2023-12-18 22:38:19,977 close.complete
+2023-12-18 22:38:19,977 latency for endpoint_url UP -https://fetch.com/some/post/endpointis (milliseconds) 1015
+2023-12-18 22:38:19,977 endpoint_url -https://fetch.com/some/post/endpoint- Failed
+2023-12-18 22:38:19,977 latency for endpoint_url DOWN -https://fetch.com/some/post/endpointis (milliseconds) 1015
+2023-12-18 22:38:19,977 testingfetch rewards index page
+2023-12-18 22:38:19,977 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:19,978 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:19,989 connect_tcp.started host='www.fetchrewards.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:20,343 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001828704A6B0>
+2023-12-18 22:38:20,343 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC8DC0> server_hostname='www.fetchrewards.com' timeout=5.0
+2023-12-18 22:38:20,677 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001828704A680>
+2023-12-18 22:38:20,678 send_request_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:20,685 send_request_headers.complete
+2023-12-18 22:38:20,685 send_request_body.started request=<Request [b'GET']>
+2023-12-18 22:38:20,685 send_request_body.complete
+2023-12-18 22:38:20,685 receive_response_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:21,023 receive_response_headers.complete return_value=(b'HTTP/1.1', 301, b'Moved Permanently', [(b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Dec 2023 16:38:26 GMT'), (b'Location', b'https://www.fetch.com/'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 614ee5305862f7e9bae65335466e5512.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'LU6n1LShdE9t1miVHH_Kct-nBf5Q8gssR4VLkG48A_IBCLo_bhCeMQ=='), (b'Age', b'1794')])
+2023-12-18 22:38:21,023 HTTP Request: GET https://www.fetchrewards.com/ "HTTP/1.1 301 Moved Permanently"
+2023-12-18 22:38:21,024 receive_response_body.started request=<Request [b'GET']>
+2023-12-18 22:38:21,024 receive_response_body.complete
+2023-12-18 22:38:21,024 response_closed.started
+2023-12-18 22:38:21,024 response_closed.complete
+2023-12-18 22:38:21,024 close.started
+2023-12-18 22:38:21,024 close.complete
+2023-12-18 22:38:21,024 latency for endpoint_url UP -https://www.fetchrewards.com/is (milliseconds) 1048
+2023-12-18 22:38:21,024 endpoint_url -https://www.fetchrewards.com/- Failed
+2023-12-18 22:38:21,025 latency for endpoint_url DOWN -https://www.fetchrewards.com/is (milliseconds) 1048
+2023-12-18 22:38:31,850 determine_reliability_of_end_points
+2023-12-18 22:38:31,857 testingfetch index page
+2023-12-18 22:38:31,857 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:31,857 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:31,868 connect_tcp.started host='fetch.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:32,211 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001828703AD40>
+2023-12-18 22:38:32,211 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC8EC0> server_hostname='fetch.com' timeout=5.0
+2023-12-18 22:38:32,542 start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001828703AE60>
+2023-12-18 22:38:32,542 send_request_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:32,542 send_request_headers.complete
+2023-12-18 22:38:32,542 send_request_body.started request=<Request [b'GET']>
+2023-12-18 22:38:32,542 send_request_body.complete
+2023-12-18 22:38:32,542 receive_response_headers.started request=<Request [b'GET']>
+2023-12-18 22:38:32,873 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'text/html'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Dec 2023 16:52:20 GMT'), (b'Cache-Control', b'public, must-revalidate, proxy-revalidate, max-age=0, s-maxage=1200'), (b'ETag', b'"1hn74o5"'), (b'Link', b'<./_app/immutable/assets/0.d47493ba.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/Icon.cd32f9da.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/4.827d7649.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/11.bc891b09.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/LogoCarousel.9819174e.css>; rel="preload";as="style"; nopush, <./_app/immutable/assets/EmblaCarousel.44a0ab22.css>; rel="preload";as="style"; nopush, <./_app/immutable/entry/start.d8e9636a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/scheduler.f94fe886.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/singletons.3fe3a3fc.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/control.f5b05b5f.js>; rel="modulepreload"; nopush, <./_app/immutable/entry/app.80820d3f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/preload-helper.a4192956.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/index.ac8fc0f0.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/0.cbc91ea2.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/stores.abf0ff68.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/easy.qrcode.min.b828a42f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/variables.5c26e260.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/_commonjsHelpers.725317a4.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/isSymbol.2558f0f7.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Icon.312a9e9d.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/each.90f7b890.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/spread.8a54911c.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/4.008fd7c2.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/oneLinks.32ca965f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/index.es.df4ab995.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/content-helpers.e3f8b68f.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/navigation.3880721a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/navbarHeight.0a35d8ae.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Picture.8286014a.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/analytics.44f9d101.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/_basePropertyOf.88806931.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/debounce.ceb15fb6.js>; rel="modulepreload"; nopush, <./_app/immutable/nodes/11.1dbd7ec4.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/AppCallout.72708c43.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/HeadMetas.0ca65857.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Html.a4294876.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/LogoCarousel.9befdaf0.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/EmblaCarousel.7d87dded.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/clsx.m.1229b3e0.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/screen-breakpoints.a15bfebd.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/HowItWorksSection.83c997fb.js>; rel="modulepreload"; nopush, <./_app/immutable/chunks/Hero.ad34468d.js>; rel="modulepreload"; nopush'), (b'x-request-id', b'd9bc973a-884a-42fd-9ebe-91ee8b9f1aee'), (b'x-sveltekit-page', b'true'), (b'Content-Encoding', b'gzip'), (b'Vary', b'Accept-Encoding'), (b'X-Cache', b'Hit from cloudfront'), (b'Via', b'1.1 60c77d7f2a0954d991174a909a828016.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'YTO50-P1'), (b'X-Amz-Cf-Id', b'_e3Gk49Ed7hbgpNOQEGRdYhSdLv6opH-zUweTbPFLuGXn0aCHk61uw=='), (b'Age', b'972')])
+2023-12-18 22:38:32,875 HTTP Request: GET https://fetch.com/ "HTTP/1.1 200 OK"
+2023-12-18 22:38:32,875 receive_response_body.started request=<Request [b'GET']>
+2023-12-18 22:38:32,977 receive_response_body.complete
+2023-12-18 22:38:32,977 response_closed.started
+2023-12-18 22:38:32,977 response_closed.complete
+2023-12-18 22:38:32,978 close.started
+2023-12-18 22:38:32,979 close.complete
+2023-12-18 22:38:32,979 latency for endpoint_url UP -https://fetch.com/is (milliseconds) 1121
+2023-12-18 22:38:32,979 testingfetch careers page
+2023-12-18 22:38:32,981 load_ssl_context verify=True cert=None trust_env=True http2=False
+2023-12-18 22:38:32,982 load_verify_locations cafile='C:\\Users\\1028016\\PycharmProjects\\Reliability Engineering Projects\\lib\\site-packages\\certifi\\cacert.pem'
+2023-12-18 22:38:33,006 connect_tcp.started host='fetch.com' port=443 local_address=None timeout=5.0 socket_options=None
+2023-12-18 22:38:33,332 connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000018287039630>
+2023-12-18 22:38:33,333 start_tls.started ssl_context=<ssl.SSLContext object at 0x0000018286FC8FC0> server_hostname='fetch.com' timeout=5.0

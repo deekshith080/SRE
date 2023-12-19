@@ -1,0 +1,24 @@
+endpoints:
+  - endpoint:
+    - headers:
+      user-agent: fetch-synthetic-monitor
+    method: GET
+    name: fetch index page
+    url: https://fetch.com/
+  - endpoint:
+    - headers:
+      user-agent: fetch-synthetic-monitor
+    method: GET
+    name: fetch careers page
+    url: https://fetch.com/careers
+    body: /'{"foo":"bar"}'/
+  - endpoint:
+    - headers:
+      content-type: application/json
+      user-agent: fetch-synthetic-monitor
+    method: POST
+    name: fetch some fake post endpoint
+    url: https://fetch.com/some/post/endpoint
+  - endpoint:
+    name: fetch rewards index page
+    url: https://www.fetchrewards.com/
